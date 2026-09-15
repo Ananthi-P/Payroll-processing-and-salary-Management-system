@@ -1,0 +1,30 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Java / Maven
+backend/target/
+*.class
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local application configuration
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
